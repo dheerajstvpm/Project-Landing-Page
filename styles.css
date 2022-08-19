@@ -20,7 +20,7 @@ header{
 .links{
     display: flex;
     gap: 16px;
-    font-size: 18px;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -82,17 +82,18 @@ img{
     display: flex;
     justify-content: space-around;
     background: white;
+    flex-wrap: wrap;
 }
 .img{
     text-align: center;
-    width: 15vw;
+    width: 200px;
     background-image: url(./img.png);
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 .info{
-    width: 15vw;
-    height: 15vw;
+    width: 200px;
+    height: 200px;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
     border: 2px solid white ;
